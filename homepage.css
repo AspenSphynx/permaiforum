@@ -1,0 +1,50 @@
+*{
+    /*font-family: sans-serif;*/
+}
+
+/*banner styling*/
+.banner{
+    color: #8D191C;
+    margin: auto;
+    /*font-size: 20px;*/
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    clip-path: circle(50%);
+}
+
+
+p#banner{
+    text-align: right;
+    font-family: 'old_school_united_regular';
+}
+
+
+/*post - card layout styling*/
+.cards{
+    margin: 0 auto;
+    display: grid;
+    
+    
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+#user_icon{
+    border: 3px solid;
+    clip-path: circle(50%);
+}
+
+
+
+/*------------------------------------------------*/
+
