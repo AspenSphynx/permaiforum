@@ -5,6 +5,7 @@
 
 *{
     font-family: sans-serif;
+    margin: 0;
 }
 
 /*banner styling*/
@@ -12,23 +13,23 @@
     color: #8D191C;
     margin: 0 auto;
     /*font-size: 20px;*/
-    text-align: center;
-    display: inline-block;
+    /*text-align: center;*/
+    /*display: inline-block;*/
     width: 100%;
 }
 
 h1#header{
     font-family: 'old_school_united_regular';
     font-size: 40px;
-    float: top;
+    
 }
 
 #logo{
     height: 80px;
     width: 80px;
-    margin-right: 20px;
+    
     clip-path: circle(50%);
-    float: left;
+
 }
 
 
@@ -39,21 +40,25 @@ p#banner{
 }
 
 .search_bar{
-    width: 30%;
+    width: 90%;
     height: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 20px;
-    float:inline-end;
-    vertical-align: middle;
+    
+    vertical-align: bottom;
+    
+}
+
+.site_logo_and_name{
+    /*float: left;*/
+    /*height: 150px;*/
+    width: 100%;
 }
 
 
 /*post - card layout styling*/
 .cards{
-    margin: 0 auto;
-    display: grid;
-    
-    
+    margin: 10px;
 }
 
 .card{
@@ -64,6 +69,19 @@ p#banner{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
+}
+.content_card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content{
+    margin: 20px 0;
 }
 
 #user_icon{
@@ -88,13 +106,23 @@ p#banner{
     font-size: 10px;
 }
 
-/*
+#user_functions{
+    width: 40px;
+}
+
+#user_functions_gap{
+    width: 50%;
+}
+
+*/
 table, tr, td{
     
-    border: 1px solid;
+    border : 1px solid;
     vertical-align: bottom;
 }
 */
+
+
 
 td{
     /*vertical-align: bottom;*/

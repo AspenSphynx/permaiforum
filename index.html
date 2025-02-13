@@ -10,20 +10,36 @@
     <body>
         <header class="banner">
             
-            <img id="logo" src="./images/Logo Akademi Sukan Permai.png" alt="logo Akademi Sukan Permai" >
-
-            <h1 id="header">Permai <br> Forum</h1>
-            <div class="search_bar"><i class="material-icons" style="float: right;">search</i></div>
-            <i class="material-icons" style="border: 1px solid; border-radius: 50%;">person</i>            
+            <div class="site_logo_and_name">
+                <table>
+                    <tr>
+                        <td>
+                            <img id="logo" src="./images/Logo Akademi Sukan Permai.png" alt="logo Akademi Sukan Permai" >
+                        </td>
+                        <td>
+                            <h1 id="header">Permai <br> Forum</h1>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+           
+            
         </header>
         
         <main class="cards">
-            
             <div class="card">
                 <div class="user_information">
-                    <i class="material-icons" id="user_icon">person</i>
-                    <p>Dapur Lonely</p>
-                    <p>2 days ago</p>
+                    <table>
+                        <tr>
+                            <td rowspan="2" colspan="1" id="user_post_icon"><i class="material-icons" id="user_icon">person</i></td>
+                            <td rowspan="1" colspan="2" id="username"><p>Dapur Lonely</p></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="2" id="duration"><p>2 days ago</p></td>
+                        </tr>
+
+                    </table>
                 </div>
                 <hr>
                 <div class="content_card">
@@ -36,62 +52,22 @@
                     <hr>
                     <div class="card_functions">
                         <div>
-                            <i class="material-icons">thumb_up</i>109
-                            <i class="material-icons">thumb_down</i>21
-                            <i class="material-icons">comment</i>
-                            <i class="material-icons">send</i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="user_information">
-                    <i class="material-icons" id="user_icon">person</i>
-                    <p>Wadidaw-wadadidaw</p>
-                    <p>3 days ago</p>
-                </div>
-                <hr>
-                <div class="content_card">
-                    <div class="topic">
-                        <h2>Amal problem</h2>
-                    </div>
-                    <div class="content">
-                        <p>Aku sorang je ke rasa macam si amal tu problem? Dia tu bla bla bla bla</p>
-                    </div>
-                    <hr>
-                    <div class="card_functions">
-                        <div>
-                            <i class="material-icons">thumb_up</i>289
-                            <i class="material-icons">thumb_down</i>78
-                            <i class="material-icons">comment</i>
-                            <i class="material-icons">send</i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="user_information">
-                    <i class="material-icons" id="user_icon">person</i>
-                    <p>Wadidaw-wadadidaw</p>
-                    <p>3 days ago</p>
-                </div>
-                <hr>
-                <div class="content_card">
-                    <div class="topic">
-                        <h2>Amal problem</h2>
-                    </div>
-                    <div class="content">
-                        <p>Aku sorang je ke rasa macam si amal tu problem? Dia tu bla bla bla bla</p>
-                    </div>
-                    <hr>
-                    <div class="card_functions">
-                        <div>
-                            <i class="material-icons">thumb_up</i>289
-                            <i class="material-icons">thumb_down</i>78
-                            <i class="material-icons">comment</i>
-                            <i class="material-icons">send</i>
+                            <table class="user_functions">
+                                <tr id="user_functions">
+                                    <td id="user_functions">
+                                        <i class="material-icons">thumb_up</i>
+                                        289
+                                    </td>
+                                    <td id="user_functions"><i class="material-icons">thumb_down</i>78</td>
+                                    <td id="user_functions"><i class="material-icons">comment</i> 20</td>
+                                    <td id="user_functions_gap"></td>
+                                    <td id="user_functions"><i class="material-icons">send</i></td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -102,7 +78,7 @@
                     <table>
                         <tr>
                             <td rowspan="2" colspan="1" id="user_post_icon"><i class="material-icons" id="user_icon">person</i></td>
-                            <td rowspan="1" colspan="2" id="username"><p>new user</p></td>
+                            <td rowspan="1" colspan="2" id="username"><p>wadidaw-wadadidaw</p></td>
                         </tr>
                         <tr>
                             <td rowspan="1" colspan="2" id="duration"><p>2 hour ago</p></td>
@@ -121,14 +97,118 @@
                     <hr>
                     <div class="card_functions">
                         <div>
-                            <i class="material-icons">thumb_up</i>289
-                            <i class="material-icons">thumb_down</i>78
-                            <i class="material-icons">comment</i>
-                            <i class="material-icons">send</i>
+                            <table class="user_functions">
+                                <tr id="user_functions">
+                                    <td id="user_functions">
+                                        <i class="material-icons">thumb_up</i>
+                                        289
+                                    </td>
+                                    <td id="user_functions"><i class="material-icons">thumb_down</i>78</td>
+                                    <td id="user_functions"><i class="material-icons">comment</i>56</td>
+                                    <td id="user_functions_gap"></td>
+                                    <td id="user_functions"><i class="material-icons">send</i></td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="card">
+                <div class="user_information">
+                    <table>
+                        <tr>
+                            <td rowspan="2" colspan="1" id="user_post_icon"><i class="material-icons" id="user_icon">person</i></td>
+                            <td rowspan="1" colspan="2" id="username"><p>wadidaw-wadadidaw</p></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="2" id="duration"><p>2 hour ago</p></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <hr>
+                <div class="content_card">
+                    <div class="topic">
+                        <h2>Amal problem</h2>
+                    </div>
+                    <div class="content">
+                        <p>Aku sorang je ke rasa macam si amal tu problem? Dia tu bla bla bla bla</p>
+                    </div>
+                    <hr>
+                    <div class="card_functions">
+                        <div>
+                            <table class="user_functions">
+                                <tr id="user_functions">
+                                    <td id="user_functions">
+                                        <i class="material-icons">thumb_up</i>
+                                        289
+                                    </td>
+                                    <td id="user_functions"><i class="material-icons">thumb_down</i>78</td>
+                                    <td id="user_functions"><i class="material-icons">comment</i>56</td>
+                                    <td id="user_functions_gap"></td>
+                                    <td id="user_functions"><i class="material-icons">send</i></td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="user_information">
+                    <table>
+                        <tr>
+                            <td rowspan="2" colspan="1" id="user_post_icon"><i class="material-icons" id="user_icon">person</i></td>
+                            <td rowspan="1" colspan="2" id="username"><p>wadidaw-wadadidaw</p></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="2" id="duration"><p>2 hour ago</p></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <hr>
+                <div class="content_card">
+                    <div class="topic">
+                        <h2>Amal problem</h2>
+                    </div>
+                    <div class="content">
+                        <p>Aku sorang je ke rasa macam si amal tu problem? Dia tu bla bla bla bla</p>
+                    </div>
+                    <hr>
+                    <div class="card_functions">
+                        <div>
+                            <table class="user_functions">
+                                <tr id="user_functions">
+                                    <td id="user_functions">
+                                        <i class="material-icons">thumb_up</i>
+                                        289
+                                    </td>
+                                    <td id="user_functions"><i class="material-icons">thumb_down</i>78</td>
+                                    <td id="user_functions"><i class="material-icons">comment</i>56</td>
+                                    <td id="user_functions_gap"></td>
+                                    <td id="user_functions"><i class="material-icons">send</i></td>
+                                </tr>
+                            </table>
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
         </main>
     </body>
 </html>
