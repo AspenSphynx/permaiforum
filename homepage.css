@@ -7,6 +7,7 @@
     color: #8D191C;
     margin: auto;
     /*font-size: 20px;*/
+    text-align: center;
 }
 
 #logo{
@@ -32,8 +33,9 @@ p#banner{
 
 .card{
     padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*border: 1px solid black;*/
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
