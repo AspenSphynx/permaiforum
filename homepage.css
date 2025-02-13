@@ -10,15 +10,16 @@
 
 /*banner styling*/
 .banner{
-    color: #8D191C;
+    /*color: #8D191C;*/
     margin: 0 auto;
     /*font-size: 20px;*/
     /*text-align: center;*/
-    /*display: inline-block;*/
+    display: inline-block;
     width: 100%;
     position: sticky;
     top: 0;
     background-color: #8D191C;
+    margin: auto;
 }
 
 h1#header{
@@ -47,9 +48,9 @@ p#banner{
     height: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 20px;
-    
+    background-color: rgb(192, 170, 170);
     vertical-align: bottom;
-    
+    margin: 10px auto 10px;
 }
 
 .site_logo_and_name{
@@ -58,10 +59,29 @@ p#banner{
     width: 100%;
 }
 
+.profile{
+    float: right;
+}
+
+#banner_gap{
+    width: 100%;
+    
+}
+
+#profile_icon_banner{
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/*-----------------------------------------*/
 
 /*post - card layout styling*/
 .cards{
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card{
@@ -109,15 +129,19 @@ h2{
     font-size: 10px;
 }
 
-#user_functions{
-    width: 40px;
+.user_functions{
+    width: 100%;
+}
+
+#user_functions_button{
+    max-width: 20%;
 }
 
 #user_functions_gap{
     width: 50%;
 }
 
-*/
+/*
 table, tr, td{
     
     border : 1px solid;
