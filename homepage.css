@@ -16,6 +16,9 @@
     /*text-align: center;*/
     /*display: inline-block;*/
     width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #8D191C;
 }
 
 h1#header{
