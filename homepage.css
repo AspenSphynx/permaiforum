@@ -8,6 +8,15 @@
     margin: 0;
 }
 
+.material-icons {
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+.material-icons:hover {
+    transform: scale(1.2);
+    color: #FFD700;
+}
+
 /*banner styling*/
 .banner{
     /*color: #8D191C;*/
@@ -18,7 +27,8 @@
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: #8D191C;
+    /*background-color: #8D191C;*/
+    background: linear-gradient(to right, #8D191C, #590F11);
     margin: auto;
 }
 
@@ -47,6 +57,7 @@ p#banner{
     
 }
 
+/*
 .search_bar{
     width: 90%;
     height: 30px;
@@ -56,7 +67,17 @@ p#banner{
     vertical-align: bottom;
     margin: 10px auto 10px;
 }
-
+*/
+.search_bar {
+    width: 80%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    background: #FFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 .site_logo_and_name{
     /*float: left;*/
     /*height: 150px;*/
@@ -88,16 +109,33 @@ p#banner{
     padding-right: 10px;
 }
 
+/*
 .card{
     padding: 10px;
     padding-bottom: 0;
     margin-top: 10px;
     margin-bottom: 0;
-    /*border: 1px solid black;*/
+    /*border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 }
+*/
+
+.card {
+    background: linear-gradient(to bottom, #838383, #e9e6e7);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 .content_card{
     margin-top: 10px;
     margin-bottom: 0;
@@ -163,6 +201,20 @@ td{
 /*------------------------------------------------*/
 
 /*-----------------comment section-----------------*/
+
+.card_comments{
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /*border: 1px solid black;*/
+    border-top: 1px solid;
+
+    border-bottom: 1px solid;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+
+}
 
 #comment_heading{
     text-align: center;
