@@ -57,7 +57,7 @@ body.shrink-padding {
     align-items: center;
     /*height: 120px; /* Expanded height */
     padding-bottom: 10px;
-    
+    padding-top: 10px;
 }
 
 
