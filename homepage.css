@@ -58,7 +58,40 @@ body.shrink-padding {
     /*height: 120px; /* Expanded height */
     padding-bottom: 10px;
     padding-top: 10px;
+    justify-content: center;
 }
+
+#banner_divider_horizontal {
+    width: 90%;
+    height: 1px;
+    background-color: white; /* Change to desired color */
+    margin-top: 10px;
+    /*display: none; /* Initially hidden */
+}
+
+.banner #banner_divider_horizontal {
+    display: block; /* Show when expanded */
+}
+
+.banner.shrink #banner_divider_horizontal{
+    display: none;
+}
+
+#banner_divider_vertical{
+    width: 1px;
+    height: 80px;
+    background-color: white;
+}
+
+.banner #banner_divider_vertical {
+    display: none;
+}
+
+.banner.shrink #banner_divider_vertical{
+    display: block;
+}
+
+
 
 
 
@@ -146,7 +179,7 @@ h1#header{
     flex-direction: column; /* Stack the text vertically */
     /*text-align: left; /* Align text to the left */
     font-size: 25px; /* Reduce font size */
-    line-height: 1.2; /* Adjust spacing */
+    /*line-height: 1.2; /* Adjust spacing */
     width: 80px;
 }
 .banner_top{
