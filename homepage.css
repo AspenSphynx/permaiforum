@@ -181,6 +181,7 @@ h1#header{
     font-size: 25px; /* Reduce font size */
     /*line-height: 1.2; /* Adjust spacing */
     width: 80px;
+    padding-top: 0;
 }
 .banner_top{
     text-align: center;
