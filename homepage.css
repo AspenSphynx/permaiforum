@@ -70,14 +70,33 @@ p#banner{
 */
 .search_bar {
     width: 80%;
-    height: 35px;
+    height: 20px;
     border-radius: 20px;
     border: none;
     padding: 5px 15px;
     font-size: 16px;
     background: #FFF;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: gray;
+    /*text-align: center;*/
+    margin: 10px auto 10px;
+    
+
 }
+
+input{
+    border: hidden;
+}
+
+.search_bar i{
+    position: absolute;
+}
+
+.input_field{
+    text-align: center;
+    width: 100%;
+}
+
 .site_logo_and_name{
     /*float: left;*/
     /*height: 150px;*/
@@ -93,10 +112,11 @@ p#banner{
     
 }
 
-#profile_icon_banner{
-    border: 1px solid;
+#account_profile_picture{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
     border-radius: 50%;
-    margin-right: 10px;
 }
 
 /*-----------------------------------------*/
@@ -105,8 +125,8 @@ p#banner{
 .cards{
     margin: 10px auto;
     max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*
@@ -124,10 +144,10 @@ p#banner{
 
 .card {
     background: white;
-    border-radius: 12px;
+    /*border-radius: 12px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -166,6 +186,11 @@ h2{
 
 #user_post_icon{
     vertical-align: top;
+    width: 40px;
+    height: 40px;
+    /*clip-path: circle(50%);*/
+    border: 1px solid rgb(170, 164, 164);
+    border-radius: 50%;
 }
 
 #duration{
