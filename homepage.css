@@ -95,6 +95,7 @@ input{
 .input_field{
     text-align: center;
     width: 100%;
+    outline: none;
 }
 
 .site_logo_and_name{
