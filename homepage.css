@@ -144,7 +144,7 @@ h1#header{
     transition: all 0.3s ease-in-out;
     font-family: 'old_school_united_regular';
     color: white;
-    
+    padding-top: 10px;
 }
 
 /* When the banner shrinks */
@@ -243,6 +243,8 @@ p#banner{
     clip-path: circle(50%);
     margin-left: 10px;
     transition: all 0.3s ease-in-out;
+    border: 2px solid rgb(159, 150, 150);
+    border-radius: 50%;
 }
 
 .banner.shrink #profile_pic {
