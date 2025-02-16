@@ -123,7 +123,7 @@ p#banner{
 */
 
 .card {
-    background: linear-gradient(to bottom, #838383, #e9e6e7);
+    background: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
