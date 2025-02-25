@@ -430,7 +430,7 @@ td{
 }
 
 .cards.shrink-margin{
-    position: sticky;
+    /*position: sticky;*/
     top: 70px;
     margin-top: 60px;
     background-color: white;
@@ -448,13 +448,13 @@ td{
 
 #comment_heading{
     text-align: center;
-    box-shadow: 0px 15px 20px rgba(100,100,100,0.5);
+    /*box-shadow: 0px 15px 20px rgba(100,100,100,0.5);*/
     background-color: white;
     padding: 10px;
 }
 
 .comments{
-    margin: 10px;
+    /*margin: 10px;*/
     margin-top: 0;
     margin-bottom: 60px;
     align-items: center;
@@ -470,8 +470,8 @@ td{
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
     /*margin-left: 20px;*/
     /*padding-left: 20px;*/
