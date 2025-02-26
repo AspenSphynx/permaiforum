@@ -181,9 +181,9 @@ h1#header{
     display: flex;
     flex-direction: column; /* Stack the text vertically */
     /*text-align: left; /* Align text to the left */
-    font-size: 25px; /* Reduce font size */
+    font-size: 40px; /* Reduce font size */
     /*line-height: 1.2; /* Adjust spacing */
-    width: 80px;
+    /*width: 80px;*/
     padding-top: 0;
     margin-right: 10px;
 }
@@ -196,6 +196,7 @@ h1#header{
     align-items: center;
     margin-top: 10px;
     transition: all 0.3s ease-in-out;
+    height: 45px;
 }
 
 .banner.shrink .banner_bottom {
@@ -205,6 +206,22 @@ h1#header{
     top: 15px;
     display: flex;
     align-items: center;
+}
+
+.banner.shrink .banner_bottom .search_bar,
+.banner.shrink .banner_bottom #profile_pic,
+.banner.shrink .banner_bottom #search_icon,
+.banner .banner_bottom #hamburger_menu{
+    display: none;
+}
+
+.banner.shrink .banner_bottom #hamburger_menu{
+    display: flex;
+}
+
+#hamburger_menu{
+    font-size: 40px;
+    margin-right: 10px;
 }
 
 p#banner{
