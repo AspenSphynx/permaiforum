@@ -155,7 +155,7 @@ h1#header{
     padding: 5px 10px;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 
 .banner.shrink .banner-content {
