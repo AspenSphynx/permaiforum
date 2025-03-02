@@ -414,6 +414,7 @@ h2{
 }
 
 #user_functions_button{
+    padding-top: 5px;
     max-width: 10px;
     width: 5px;
     text-align: center;
@@ -434,7 +435,7 @@ table, tr, td{
 
 
 td{
-    /*vertical-align: bottom;*/
+    vertical-align: top;
     /*display: inline-block;*/
 }
 /*------------------------------------------------*/
