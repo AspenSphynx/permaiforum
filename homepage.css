@@ -103,7 +103,7 @@ body.shrink-padding {
     justify-content: flex-start;
     align-items: center;
     padding: 10px 20px;
-    
+    vertical-align: top;
 }
 
 
@@ -421,7 +421,7 @@ h2{
 }
 
 #user_functions_gap{
-    width: 50%;
+    width: 55%;
 }
 
 /*
@@ -502,6 +502,9 @@ td{
     position: relative;
     /*margin-left: 20px;*/
     /*padding-left: 20px;*/
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .comment_border{
