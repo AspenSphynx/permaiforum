@@ -414,7 +414,9 @@ h2{
 }
 
 #user_functions_button{
-    max-width: 20%;
+    max-width: 10px;
+    width: 5px;
+    text-align: center;
 }
 
 #user_functions_gap{
